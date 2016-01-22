@@ -21,5 +21,13 @@ namespace SnowshoesPen
         {
 
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Form1 o = new Form1();
+            o.Show();
+            o.BringToFront();
+            this.Hide();
+        }
     }
 }
