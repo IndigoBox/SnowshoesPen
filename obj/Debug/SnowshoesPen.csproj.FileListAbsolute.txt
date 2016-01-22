@@ -1,0 +1,21 @@
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.exe.config
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.exe
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.pdb
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.csprojResolveAssemblyReference.cache
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Form1.resources
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Properties.Resources.resources
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.csproj.GenerateResource.Cache
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.exe
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.pdb
+C:\VS Programs\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\Transitions.dll
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.exe.config
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.exe
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.pdb
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.exe
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\bin\Debug\SnowshoesPen.pdb
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.csprojResolveAssemblyReference.cache
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Form1.resources
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Properties.Resources.resources
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.csproj.GenerateResource.Cache
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Launch.resources
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.NewWriter.resources
