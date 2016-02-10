@@ -19,3 +19,5 @@ C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\Sno
 C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.csproj.GenerateResource.Cache
 C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Launch.resources
 C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.NewWriter.resources
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Pad.resources
+C:\ProjectSnowshoesProject\OS\Canine\Snowshoes\AppsForSnowshoes\SnowshoesPen\SnowshoesPen\obj\Debug\SnowshoesPen.Playground_ChartGenerationMS.resources
