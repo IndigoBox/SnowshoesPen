@@ -29,5 +29,20 @@ namespace SnowshoesPen
             o.BringToFront();
             this.Hide();
         }
+
+        private void Launch_Load(object sender, EventArgs e)
+        {
+            if (DateTime.Now.Hour < 5) {
+                subgreet.Text = "Let's make this as efficient as possible. You should sleep.";
+            }
+            else if (DateTime.Now.Hour > 5 && DateTime.Now.Hour < 9)
+            {
+                subgreet.Text = "Looks like your up early! Let's get started.";
+            }
+            if (DateTime.Now.Hour > 9 && DateTime.Now.Hour < 12)
+            {
+                subgreet.Text = "Did you get breakfast yet?";
+            }
+        }
     }
 }
