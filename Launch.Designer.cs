@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Launch));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.subgreet = new System.Windows.Forms.Label();
@@ -43,22 +42,22 @@
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.optT1 = new System.Windows.Forms.Label();
+            this.optT2 = new System.Windows.Forms.Label();
+            this.optT3 = new System.Windows.Forms.Label();
+            this.optT4 = new System.Windows.Forms.Label();
+            this.opt4 = new System.Windows.Forms.PictureBox();
+            this.opt3 = new System.Windows.Forms.PictureBox();
+            this.opt2 = new System.Windows.Forms.PictureBox();
+            this.opt1 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -220,99 +219,99 @@
             this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.label10.Click += new System.EventHandler(this.label10_Click);
             // 
-            // label11
+            // optT1
             // 
-            this.label11.BackColor = System.Drawing.Color.SteelBlue;
-            this.label11.Font = new System.Drawing.Font("Open Sans", 12F);
-            this.label11.ForeColor = System.Drawing.Color.White;
-            this.label11.Location = new System.Drawing.Point(369, 350);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(270, 22);
-            this.label11.TabIndex = 3;
-            this.label11.Text = " Start from scratch";
-            this.label11.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label11.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.optT1.BackColor = System.Drawing.Color.SteelBlue;
+            this.optT1.Font = new System.Drawing.Font("Open Sans", 12F);
+            this.optT1.ForeColor = System.Drawing.Color.White;
+            this.optT1.Location = new System.Drawing.Point(369, 350);
+            this.optT1.Name = "optT1";
+            this.optT1.Size = new System.Drawing.Size(270, 22);
+            this.optT1.TabIndex = 3;
+            this.optT1.Text = "Start New";
+            this.optT1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.optT1.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
-            // label12
+            // optT2
             // 
-            this.label12.BackColor = System.Drawing.Color.SteelBlue;
-            this.label12.Font = new System.Drawing.Font("Open Sans", 12F);
-            this.label12.ForeColor = System.Drawing.Color.White;
-            this.label12.Location = new System.Drawing.Point(658, 350);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(270, 22);
-            this.label12.TabIndex = 12;
-            this.label12.Text = " Use a template";
-            this.label12.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.optT2.BackColor = System.Drawing.Color.SteelBlue;
+            this.optT2.Font = new System.Drawing.Font("Open Sans", 12F);
+            this.optT2.ForeColor = System.Drawing.Color.White;
+            this.optT2.Location = new System.Drawing.Point(658, 350);
+            this.optT2.Name = "optT2";
+            this.optT2.Size = new System.Drawing.Size(270, 22);
+            this.optT2.TabIndex = 12;
+            this.optT2.Text = "Test out VS Graphs";
+            this.optT2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label13
+            // optT3
             // 
-            this.label13.BackColor = System.Drawing.Color.SteelBlue;
-            this.label13.Font = new System.Drawing.Font("Open Sans", 12F);
-            this.label13.ForeColor = System.Drawing.Color.White;
-            this.label13.Location = new System.Drawing.Point(369, 569);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(270, 23);
-            this.label13.TabIndex = 13;
-            this.label13.Text = " Import from Google Drive";
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.optT3.BackColor = System.Drawing.Color.SteelBlue;
+            this.optT3.Font = new System.Drawing.Font("Open Sans", 12F);
+            this.optT3.ForeColor = System.Drawing.Color.White;
+            this.optT3.Location = new System.Drawing.Point(369, 569);
+            this.optT3.Name = "optT3";
+            this.optT3.Size = new System.Drawing.Size(270, 23);
+            this.optT3.TabIndex = 13;
+            this.optT3.Text = "Function coming soon...";
+            this.optT3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label14
+            // optT4
             // 
-            this.label14.BackColor = System.Drawing.Color.SteelBlue;
-            this.label14.Font = new System.Drawing.Font("Open Sans", 12F);
-            this.label14.ForeColor = System.Drawing.Color.White;
-            this.label14.Location = new System.Drawing.Point(658, 569);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(270, 23);
-            this.label14.TabIndex = 15;
-            this.label14.Text = " Open from Path";
-            this.label14.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.optT4.BackColor = System.Drawing.Color.SteelBlue;
+            this.optT4.Font = new System.Drawing.Font("Open Sans", 12F);
+            this.optT4.ForeColor = System.Drawing.Color.White;
+            this.optT4.Location = new System.Drawing.Point(658, 569);
+            this.optT4.Name = "optT4";
+            this.optT4.Size = new System.Drawing.Size(270, 23);
+            this.optT4.TabIndex = 15;
+            this.optT4.Text = "Function coming soon...";
+            this.optT4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // pictureBox5
+            // opt4
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox5.Location = new System.Drawing.Point(658, 383);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(270, 209);
-            this.pictureBox5.TabIndex = 16;
-            this.pictureBox5.TabStop = false;
+            this.opt4.BackColor = System.Drawing.Color.SteelBlue;
+            this.opt4.BackgroundImage = global::SnowshoesPen.Properties.Resources.TagYourself;
+            this.opt4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.opt4.Location = new System.Drawing.Point(658, 383);
+            this.opt4.Name = "opt4";
+            this.opt4.Size = new System.Drawing.Size(270, 209);
+            this.opt4.TabIndex = 16;
+            this.opt4.TabStop = false;
             // 
-            // pictureBox4
+            // opt3
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox4.Location = new System.Drawing.Point(369, 383);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(270, 209);
-            this.pictureBox4.TabIndex = 14;
-            this.pictureBox4.TabStop = false;
+            this.opt3.BackColor = System.Drawing.Color.SteelBlue;
+            this.opt3.BackgroundImage = global::SnowshoesPen.Properties.Resources.TagYourself;
+            this.opt3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.opt3.Location = new System.Drawing.Point(369, 383);
+            this.opt3.Name = "opt3";
+            this.opt3.Size = new System.Drawing.Size(270, 209);
+            this.opt3.TabIndex = 14;
+            this.opt3.TabStop = false;
             // 
-            // pictureBox3
+            // opt2
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox3.BackgroundImage")));
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox3.Location = new System.Drawing.Point(658, 163);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(270, 209);
-            this.pictureBox3.TabIndex = 11;
-            this.pictureBox3.TabStop = false;
+            this.opt2.BackColor = System.Drawing.Color.SteelBlue;
+            this.opt2.BackgroundImage = global::SnowshoesPen.Properties.Resources.Doughnut;
+            this.opt2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.opt2.Location = new System.Drawing.Point(658, 163);
+            this.opt2.Name = "opt2";
+            this.opt2.Size = new System.Drawing.Size(270, 209);
+            this.opt2.TabIndex = 11;
+            this.opt2.TabStop = false;
             // 
-            // pictureBox2
+            // opt1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.SteelBlue;
-            this.pictureBox2.BackgroundImage = global::SnowshoesPen.Properties.Resources.Plus;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox2.Location = new System.Drawing.Point(369, 163);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(270, 209);
-            this.pictureBox2.TabIndex = 10;
-            this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
+            this.opt1.BackColor = System.Drawing.Color.SteelBlue;
+            this.opt1.BackgroundImage = global::SnowshoesPen.Properties.Resources.addschitem;
+            this.opt1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.opt1.Location = new System.Drawing.Point(369, 163);
+            this.opt1.Name = "opt1";
+            this.opt1.Size = new System.Drawing.Size(270, 209);
+            this.opt1.TabIndex = 10;
+            this.opt1.TabStop = false;
+            this.opt1.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // pictureBox1
             // 
@@ -328,14 +327,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(928, 592);
-            this.Controls.Add(this.label14);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.label13);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.label12);
-            this.Controls.Add(this.label11);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
+            this.Controls.Add(this.optT4);
+            this.Controls.Add(this.opt4);
+            this.Controls.Add(this.optT3);
+            this.Controls.Add(this.opt3);
+            this.Controls.Add(this.optT2);
+            this.Controls.Add(this.optT1);
+            this.Controls.Add(this.opt2);
+            this.Controls.Add(this.opt1);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.panel3);
             this.Controls.Add(this.panel1);
@@ -347,10 +346,10 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.opt1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -373,13 +372,13 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox opt1;
+        private System.Windows.Forms.PictureBox opt2;
+        private System.Windows.Forms.Label optT1;
+        private System.Windows.Forms.Label optT2;
+        private System.Windows.Forms.Label optT3;
+        private System.Windows.Forms.PictureBox opt3;
+        private System.Windows.Forms.Label optT4;
+        private System.Windows.Forms.PictureBox opt4;
     }
 }
