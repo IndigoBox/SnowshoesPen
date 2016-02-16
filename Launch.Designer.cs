@@ -38,6 +38,7 @@
             this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.moreRecent = new System.Windows.Forms.FlowLayoutPanel();
             this.label7 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -50,15 +51,14 @@
             this.opt3 = new System.Windows.Forms.PictureBox();
             this.opt2 = new System.Windows.Forms.PictureBox();
             this.opt1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -176,6 +176,14 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Snowshoes Design Document";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(10, 68);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(109, 109);
+            this.pictureBox1.TabIndex = 5;
+            this.pictureBox1.TabStop = false;
             // 
             // moreRecent
             // 
@@ -300,6 +308,7 @@
             this.opt2.Size = new System.Drawing.Size(270, 209);
             this.opt2.TabIndex = 11;
             this.opt2.TabStop = false;
+            this.opt2.Click += new System.EventHandler(this.opt2_Click);
             // 
             // opt1
             // 
@@ -312,14 +321,6 @@
             this.opt1.TabIndex = 10;
             this.opt1.TabStop = false;
             this.opt1.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Location = new System.Drawing.Point(10, 68);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(109, 109);
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
             // 
             // Launch
             // 
@@ -346,11 +347,11 @@
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.opt1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }

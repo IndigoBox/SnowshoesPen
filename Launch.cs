@@ -44,5 +44,12 @@ namespace SnowshoesPen
                 subgreet.Text = "Did you get breakfast yet?";
             }
         }
+
+        private void opt2_Click(object sender, EventArgs e)
+        {
+            Playground_ChartGenerationMS pcgms = new Playground_ChartGenerationMS();
+            pcgms.Show();
+            pcgms.BringToFront();
+        }
     }
 }
