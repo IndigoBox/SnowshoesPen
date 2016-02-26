@@ -82,6 +82,7 @@
             this.jumpRightIn.TabIndex = 3;
             this.jumpRightIn.Text = "I just want to write something quickly...let\'s do this later.";
             this.jumpRightIn.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.jumpRightIn.Click += new System.EventHandler(this.jumpRightIn_Click);
             // 
             // label1
             // 

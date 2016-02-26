@@ -16,5 +16,13 @@ namespace SnowshoesPen
         {
             InitializeComponent();
         }
+
+        private void jumpRightIn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form1 j = new Form1();
+            j.Show();
+            j.BringToFront();
+        }
     }
 }
